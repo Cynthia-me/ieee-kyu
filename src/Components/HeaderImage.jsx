@@ -1,6 +1,8 @@
 import React from 'react'
 import '../Styles/HeaderImage.css'
 import {BrowserRouter as Router,Link} from 'react-router-dom'
+import FacebookIcon from '@material-ui/icons/Facebook';
+import TwitterIcon from '@material-ui/icons/Twitter';
 
 function HeaderImage() {
     return (
@@ -9,8 +11,8 @@ function HeaderImage() {
             <h1>IEEE KYAMBOGO UNIVERSITY STUDENT BRANCH</h1>
             <div className = "social">
                 <Router>
-                    <Link><i class='fab fa-twitter-square' style={{fontSize:'36px',color:'white',paddingBottom: '1rem'}}></i></Link>
-                    <Link><i class='fab fa-facebook' style={{fontSize:'36px',color:'white'}}></i></Link>
+                    <Link><FacebookIcon style = {{color:'white',fontSize: '2rem'}}/></Link>
+                    <Link><TwitterIcon style = {{color:'white',fontSize: '2rem'}}/></Link>
                     
                 </Router>
             </div>
