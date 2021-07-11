@@ -36,13 +36,31 @@ function Details() {
                 <div className = "row2">
                 <h3>BRANCH EVENTS</h3>
                 <div className = "details__row2">
-                  
-                   <img  alt = "ieee event" src = {im1}/>
-                   <img  alt = "ieee event" src = {im1}/>
-                   <img  alt = "ieee event" src = {im1}/>
-                   <img  alt = "ieee event" src = {im1}/>
-                   <img  alt = "ieee event" src = {im1}/>
-                   <img  alt = "ieee event" src = {im1}/>
+                    <div> 
+                    <img  alt = "ieee event" src = {im1}/>
+                    <div><p>IEEE Xtreme 2020</p></div>
+                    </div>
+                    <div> 
+                    <img  alt = "ieee event" src = {im1}/>
+                    <div><p>IEEE Xtreme 2020</p></div>
+                    </div>
+                    <div> 
+                    <img  alt = "ieee event" src = {im1}/>
+                    <div><p>IEEE Xtreme 2020</p></div>
+                    </div>
+                    <div> 
+                    <img  alt = "ieee event" src = {im1}/>
+                    <div><p>IEEE Xtreme 2020</p></div>
+                    </div>
+                    <div> 
+                    <img  alt = "ieee event" src = {im1}/>
+                    <div><p>IEEE Xtreme 2020</p></div>
+                    </div>
+                    <div> 
+                    <img  alt = "ieee event" src = {im1}/>
+                    <div><p>IEEE Xtreme 2020</p></div>
+                    </div>
+                
                </div>
                <button>VIEW MORE</button>
                 </div>

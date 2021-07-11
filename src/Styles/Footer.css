@@ -1,0 +1,23 @@
+.footer{
+    background-color:#111;
+    color: white;
+    padding: 2rem;
+}
+.ft1 p:hover{
+    border-bottom: 0.5px solid white;
+}
+@media screen and (min-width:600px){
+ 
+    .ft1{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        padding-bottom: 1rem;
+    }
+    .ft1 p{
+        
+        padding-right: 0.5rem;
+        border-right: 1px solid white;
+    }
+}

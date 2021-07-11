@@ -16,6 +16,17 @@ h1{
     width: 40%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+.head_social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0 auto;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+}
+
 .head__nav{
     display: flex;
     justify-content: space-around;
@@ -47,5 +58,14 @@ h1{
     }
     h1{
         text-align: center;
+    }
+    .head_social{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .social{
+        display: flex;
+        flex-direction: row;
     }
 }
